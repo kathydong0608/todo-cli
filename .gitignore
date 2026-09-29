@@ -1,6 +1,12 @@
 # 依赖
 node_modules/
 
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/report.html
+
 # Playwright 运行产物
 /test-results/
 /playwright-report/
